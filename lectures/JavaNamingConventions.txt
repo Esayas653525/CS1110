@@ -1,0 +1,44 @@
+Java Naming Conventions
+
+
+- always use descriptive, self-commenting naming
+
+- variable names shouldn't be too long since you have to reference them a lot
+
+- program/project names, class names & method names are usually a bit longer,
+	so they accurately describe WHAT they DO
+
+- use CamelCasing or camelCasing rather than underscores if name is > 1 word
+        (except for named-constants) - like:  rawData or phoneNum
+
+- Java is case-sensitive, so once something's named, you have to use it as is
+
+- start with Cap or start with a small letter?
+	program/project names 	- start with Cap
+	package names 		- start with a small
+	class names 		- start with Cap	
+	method names 		- start with small
+	object names 		- start with small
+	variable names 		- start with small
+	Java reserved words 	- start with small (must use "as is")
+	names from Java library - must use "as is"
+
+- named-constants - use ALL capital letters, like PI
+	- if name > 1 word, use underscore to separate words, like TAX_RATE 
+
+---------------------------------------------------------------------------------------
+
+- names of variables, constants, objects & classes are usually nouns (or adjectiveNoun)
+
+- method names are usually verbs with the noun they act on, e.g.,
+	findNumOfGallons
+
+---------------------------------------------------------------------------------------
+
+- names:
+	- can contain digits, but not as the 1st char
+	- can NOT contain a space
+	- can have an underscore (_) or dollar sign ($),
+		but generally do NOT use those
+
+ 
